@@ -30,7 +30,7 @@ public class MainApp {
 				System.out.println("1.Search By RollNo\n2.Search By Name");
 				System.out.println("Enter Choice:");
 				int subChoice=sc.nextInt();
-				if(StudentManagement.searchStudent(pStud,sc,subChoice)==1) {
+				if(StudentManagement.searchStudent(pStud,sc,subChoice)>0) {
 					System.out.println("Student Found Successfully!!!!!!!!!!!");
 				}else {
 					System.out.println("Student Not Found!!!!!!!!!!!!!");

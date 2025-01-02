@@ -1,5 +1,6 @@
 package Com.Codesoft.Task5;
 
+
 public class Student {
 	int studRollNo;
 	String studName;

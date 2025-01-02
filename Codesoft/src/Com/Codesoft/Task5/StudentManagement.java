@@ -72,9 +72,9 @@ public class StudentManagement {
 	            System.out.println("Which Data You Want To Update:\n1.Name\n2.Age\n3.Marks");
 	            System.out.println("Enter Choice:");
 	            int subChoice = sc.nextInt();
-	            sc.nextLine();  // Consume newline
+	            sc.nextLine();  
 	            for (Student stud : pStud) {
-	                if (stud.getStudRollNo() == x) {  // Check if the current student's roll number matches
+	                if (stud.getStudRollNo() == x) {  
 	                    switch (subChoice) {
 	                        case 1:
 	                            System.out.println("Enter New Name:");
